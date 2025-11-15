@@ -52,4 +52,10 @@ let name="God";
   //this is for expression assignment
 let result1=(5*6);
   
-  document.write("Answer is "+(result1));
+  document.write("Answer is "+(result1+"<br>"));
+
+
+  function myfunction(){
+    let firstname="Zander Ethan";
+    document.getElementById("clickme").innerHTML=firstname.toUpperCase();
+  }
