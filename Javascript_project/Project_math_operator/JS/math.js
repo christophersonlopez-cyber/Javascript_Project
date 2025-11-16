@@ -48,3 +48,15 @@ function compute4(){
     let result=multipleoperate(5,5,5,4,2);
     document.getElementById("multiple").innerHTML=("Add 5+5 multiply by 5 divided by 4 subtract by 2 is ="+result);
 }
+
+
+
+// function for modulus
+function modulusnumber(num1,num2){
+    return num1%num2;
+
+}
+function compute5(){
+    let result=modulusnumber(6,5);
+    document.getElementById("module").innerHTML=("When u  divide 6 and 5 you have remainder result of  ="+result);
+}
