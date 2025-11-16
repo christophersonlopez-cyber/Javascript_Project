@@ -9,3 +9,13 @@ function itsme(){
 function addtext(){
     document.getElementById("concat").innerHTML+=" Christopher";
 }
+
+
+function multiplynumbers(num1,num2){
+    return num1*num2; 
+   
+}
+function compute(){
+   let result=multiplynumbers(5, 10);
+    document.getElementById("multiply").innerHTML=(result); 
+}
