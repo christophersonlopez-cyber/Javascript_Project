@@ -15,5 +15,25 @@ function subtractnumber(num1,num2){
 }
 function compute1(){
     let result=subtractnumber(20,10);
-    document.getElementById("subtractanumber").innerHTML=("The subtraction result of 20+10 is ="+result);
+    document.getElementById("subtractanumber").innerHTML=("The subtraction result of 20-10 is ="+result);
+}
+
+// function for multiplication
+function multiplynumber(num1,num2){
+    return num1*num2;
+
+}
+function compute2(){
+    let result=multiplynumber(5,5);
+    document.getElementById("multiply").innerHTML=("The multiplication result of 5*5 is ="+result);
+}
+
+// function for division
+function dividenumber(num1,num2){
+    return num1/num2;
+
+}
+function compute3(){
+    let result=dividenumber(10,5);
+    document.getElementById("divide").innerHTML=("The Division result of 10/5 is ="+result);
 }
