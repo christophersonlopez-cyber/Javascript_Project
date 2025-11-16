@@ -37,3 +37,14 @@ function compute3(){
     let result=dividenumber(10,5);
     document.getElementById("divide").innerHTML=("The Division result of 10/5 is ="+result);
 }
+
+// function for multiple operator
+function multipleoperate(num1,num2,num3,num4,num5){
+    let multi=((num1+num2)*num3/num4-num5);
+    return multi;
+
+}
+function compute4(){
+    let result=multipleoperate(5,5,5,4,2);
+    document.getElementById("multiple").innerHTML=("Add 5+5 multiply by 5 divided by 4 subtract by 2 is ="+result);
+}
