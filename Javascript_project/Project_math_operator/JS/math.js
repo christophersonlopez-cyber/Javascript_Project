@@ -71,3 +71,27 @@ function compute6(){
     let result=negationnumber(10);
     document.getElementById("nega").innerHTML=-result;
 }
+
+
+// function for increament number
+function increamentnumber(num1){
+    return num1;
+
+}
+function compute7(){
+    let result=increamentnumber(5);
+    result++;
+    document.getElementById("increa").innerHTML=("The number 5 increase to 1 the result is "+result);
+}
+
+
+// function for Decreament number
+function decreamentnumber(num1){
+    return num1;
+
+}
+function compute8(){
+    let result=decreamentnumber(5);
+    result--;
+    document.getElementById("decrea").innerHTML=("The number 5 decrease to 1 the result is "+result);
+}
