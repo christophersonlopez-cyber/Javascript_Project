@@ -95,3 +95,11 @@ function compute8(){
     result--;
     document.getElementById("decrea").innerHTML=("The number 5 decrease to 1 the result is "+result);
 }
+
+
+// function for random number
+function compute9(){
+    let result=(Math.random() * 100);
+   
+    document.getElementById("randomnumber").innerHTML=("The random number  is "+result);
+}
