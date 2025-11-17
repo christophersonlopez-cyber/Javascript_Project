@@ -60,3 +60,14 @@ function compute5(){
     let result=modulusnumber(6,5);
     document.getElementById("module").innerHTML=("When u  divide 6 and 5 you have remainder result of  ="+result);
 }
+
+
+// function for negation operator
+function negationnumber(num1){
+    return num1;
+
+}
+function compute6(){
+    let result=negationnumber(10);
+    document.getElementById("nega").innerHTML=-result;
+}
