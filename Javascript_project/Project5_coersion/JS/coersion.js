@@ -101,3 +101,12 @@ function oroperate(){
     let result=(value1>value2||value2>value1);
     document.getElementById("oroperator").innerHTML=result;
 }
+
+
+function oroperate1(){
+    let value1=7;
+    let value2=8;
+
+    let result=(value1>value2||value2<value1);
+    document.getElementById("oroperator1").innerHTML=result;
+}
