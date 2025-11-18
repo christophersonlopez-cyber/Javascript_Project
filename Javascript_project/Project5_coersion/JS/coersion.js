@@ -102,11 +102,31 @@ function oroperate(){
     document.getElementById("oroperator").innerHTML=result;
 }
 
-
+//this for OR OPERAOTR false output
 function oroperate1(){
     let value1=7;
     let value2=8;
 
     let result=(value1>value2||value2<value1);
     document.getElementById("oroperator1").innerHTML=result;
+}
+
+
+//this for NOT OPERAOTR true output
+function notoperate(){
+    let value1=7;
+    let value2=8;
+
+    let result=(value1>value2);
+    document.getElementById("notoperator").innerHTML=!result;
+}
+
+
+//this for NOT OPERAOTR false output
+function notoperate1(){
+    let value1=7;
+    let value2=8;
+
+    let result=!(value1<value2);
+    document.getElementById("notoperator1").innerHTML=result;
 }
