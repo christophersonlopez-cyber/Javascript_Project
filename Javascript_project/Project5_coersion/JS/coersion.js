@@ -29,3 +29,12 @@ function booleansam(){
 
 console.log(5+2);
 console.log(5<2);
+
+
+function equal(){
+    let x=5;
+    let y=5;
+    let result=x==y;
+   document.getElementById("equalsign").innerHTML=result;
+}
+
