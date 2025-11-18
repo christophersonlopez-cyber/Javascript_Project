@@ -26,3 +26,6 @@ function booleansam(){
     let result=number1>number2;
     document.getElementById("booleansample").innerHTML=("Number 10 > 2 = "+result);
 }
+
+console.log(5+2);
+console.log(5<2);
