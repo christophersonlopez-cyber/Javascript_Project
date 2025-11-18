@@ -30,7 +30,7 @@ function booleansam(){
 console.log(5+2);
 console.log(5<2);
 
-
+//this for a equal sign  logical operator
 function equal(){
     let x=5;
     let y=5;
@@ -38,3 +38,36 @@ function equal(){
    document.getElementById("equalsign").innerHTML=result;
 }
 
+//this for a triple sign logical operator
+
+function triples(){
+    let value1="Hello";
+    let value2="Hello";
+
+    let result=value1===value2;
+    document.getElementById("triplesign").innerHTML=result;
+}
+
+function triples1(){
+    let value1=7;
+    let value2="7";
+
+    let result=value1===value2;
+    document.getElementById("triplesign1").innerHTML=result;
+}
+
+function triples2(){
+    let value1=7;
+    let value2="7";
+
+    let result=value1===value2;
+    document.getElementById("triplesign2").innerHTML=result;
+}
+
+function triples3(){
+    let value1=7;
+    let value2=8;
+
+    let result=value1===value2;
+    document.getElementById("triplesign3").innerHTML=result;
+}
