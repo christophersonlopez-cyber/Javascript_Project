@@ -7,6 +7,11 @@
     <title>Countdown</title>
 </head>
 <body>
+    <p>How many second would you like to set to your alarm</p>
+    <input id="second" value="">
+    <button onclick="countdown()">Click here</button><br>
+    
+    <p id="timer"></p>
     <div class="slideshow-container">
         <div class="selfcontainer fade">
             <div class="numbertext">1/3</div>
@@ -34,10 +39,7 @@
             <span class="dot" onclick="currentSlide(3)"></span> 
         </div>
     
-    <p>How many second would you like to set to your alarm</p>
-    <input id="second" value="">
-    <button onclick="countdown()">Click here</button>
-    <p id="timer"></p>
+    
     <script src="./JS/countdown.js">   </script>
 </body>
 </html>
