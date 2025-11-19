@@ -45,3 +45,22 @@ let christ=new Persons("Christopher","Lopez",29,"filipino");
 function sampleko(){
     document.getElementById("sample").innerHTML="My firstname is "+christ.Person_firstname+" and my lastname is "+christ.Person_lastname +" and age "+christ.Person_age+" Nationality "+christ.Person_nationality;
 }
+
+
+function nestedfunction(){
+    document.getElementById("nested").innerHTML=display();
+    function display(){
+        let name="christopher";
+        function age(){
+            let ages=29;
+          return name +" age of "+ages;
+            
+        }
+        let result=age();
+        return result;
+
+
+    }
+
+
+}
