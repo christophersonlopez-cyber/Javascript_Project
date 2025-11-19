@@ -46,7 +46,7 @@ function sampleko(){
     document.getElementById("sample").innerHTML="My firstname is "+christ.Person_firstname+" and my lastname is "+christ.Person_lastname +" and age "+christ.Person_age+" Nationality "+christ.Person_nationality;
 }
 
-
+//this is my nested function can display my name and age can access my variable outside of the function
 function nestedfunction(){
     document.getElementById("nested").innerHTML=display();
     function display(){
