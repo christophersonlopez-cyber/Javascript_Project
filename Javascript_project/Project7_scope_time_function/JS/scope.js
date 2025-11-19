@@ -37,3 +37,64 @@ function mytime_function(){
 
     
 }
+
+
+//function of conditional statement using input a months tp test if value is equal to input
+function months(){
+    let montssample=document.getElementById("month").value;
+    if (montssample==1){
+        document.getElementById("samplemonths").innerHTML=("January");
+    }
+    else if(montssample==2)
+    {
+        document.getElementById("samplemonths").innerHTML=("February");
+    }
+    else if(montssample==3)
+    {
+        document.getElementById("samplemonths").innerHTML=("march");
+    }
+    else if(montssample==4)
+    {
+        document.getElementById("samplemonths").innerHTML=("April");
+    }
+    else if(montssample==5)
+    {
+        document.getElementById("samplemonths").innerHTML=("May");
+    }
+    else if(montssample==6)
+    {
+        document.getElementById("samplemonths").innerHTML=("June");
+    }
+    else if(montssample==7)
+    {
+        document.getElementById("samplemonths").innerHTML=("July");
+    }
+    else if(montssample==8)
+    {
+        document.getElementById("samplemonths").innerHTML=("August");
+    }
+
+    else if(montssample==9)
+    {
+        document.getElementById("samplemonths").innerHTML=("September");
+    }
+    else if(montssample==10)
+    {
+        document.getElementById("samplemonths").innerHTML=("October");
+    }
+    else if(montssample==11)
+    {
+        document.getElementById("samplemonths").innerHTML=("November");
+    }
+
+     else if(montssample==12)
+    {
+        document.getElementById("samplemonths").innerHTML=("December");
+    }
+    else if(montssample>12)
+        {
+         document.getElementById("samplemonths").innerHTML=("invalid month you can put 1 to 12 only");
+    }
+  
+    
+}
