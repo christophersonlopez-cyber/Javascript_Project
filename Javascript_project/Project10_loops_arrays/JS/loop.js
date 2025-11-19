@@ -11,3 +11,11 @@ function loopfunction(){
     }
     document.getElementById("loopsample").innerHTML=num1;
 }
+
+function lengthfunction(){
+
+    let namesample=document.getElementById("lengthsample").value;
+    let result=namesample.length;
+
+    document.getElementById("sample").innerHTML=result;
+}
