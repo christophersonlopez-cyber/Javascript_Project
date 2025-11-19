@@ -10,5 +10,6 @@ function voting(){
     let age,canvote;
     age=document.getElementById("age").value;
     canvote=(age<18 ? "Your are not able to vote its too young":"Your are able to vote youre in legal age");
+    
     document.getElementById("agevote").innerHTML=canvote+"To Vote!"
 }
