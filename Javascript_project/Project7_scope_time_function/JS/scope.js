@@ -23,3 +23,17 @@ function my_local1(){
     let result=num1+20;
     document.getElementById("output2").innerHTML=result;
 }
+
+
+//function of conditional statement
+function mytime_function(){
+    let mytimes=new Date().getHours();
+    if (mytimes<18){
+        document.getElementById("mytime").innerHTML=("Goodafternoon");
+    }
+    else{
+        document.getElementById("mytime").innerHTML=("Goodevening");
+    }
+
+    
+}
