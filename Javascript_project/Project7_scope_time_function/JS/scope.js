@@ -14,3 +14,12 @@ function my_local(){
     let result=num1+20;
     document.getElementById("output1").innerHTML=result;
 }
+
+
+//this is my error 
+
+function my_local1(){
+   
+    let result=num1+20;
+    document.getElementById("output2").innerHTML=result;
+}
