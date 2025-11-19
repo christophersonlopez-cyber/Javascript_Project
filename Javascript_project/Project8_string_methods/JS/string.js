@@ -37,3 +37,37 @@
         let result=name.search("search")
         document.getElementById("search").innerHTML=result;
     }
+
+     //this is a function about convert a number to string
+    
+    function convert(){
+        let name=17;
+        let result=name.toString();
+        document.getElementById("convertsample").innerHTML=result +" That number isconvert in String";
+    }
+
+      //this is a function about toprecision number
+    
+    function precision(){
+        let name=1734.45654645;
+        let result=name.toPrecision(7);
+        document.getElementById("precisionsample").innerHTML=result +" That number is example of toprecision"+name;
+    }
+
+
+       //this is a function about tofixed number
+    
+    function tofixed(){
+        let name=1734.45654645;
+        let result=name.toFixed(1);
+        document.getElementById("fixed").innerHTML=result +" That number is example of tofixed "+name;
+    }
+
+
+       //this is a function about valueof 
+    
+    function valueofsample(){
+        let name="Christopher Son";
+        let result=name.valueOf();
+        document.getElementById("value").innerHTML=result;
+    }
