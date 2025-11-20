@@ -47,3 +47,13 @@ function arrayfunction(){
     document.getElementById("arraysample").innerHTML=("This is a color : "+colors[4]);
     
 }
+
+
+//this is a sample for const
+function constfunction(){
+    let car={Brand:"Toyota", Model:"Vios",Year:"2025"};
+    car.color="red";
+    car.Year="2022";
+    document.getElementById("constsample").innerHTML=("The brand of the car is : "+car.Brand+" And the color is "+car.color+" Year "+car.Year);
+    
+}
