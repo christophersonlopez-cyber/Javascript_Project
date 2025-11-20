@@ -91,3 +91,16 @@ function objects(){
 function objectfunction(){
 document.getElementById("objectsample").innerHTML=objects();
 }
+
+
+function samplefunction(){
+    let text="";
+    let x;
+    for(x=0; x<10;x++){
+        if(x==5){
+            break;
+        }
+        text+="The last number is "+ x+"<br>";
+    }
+    document.getElementById("breaksample").innerHTML=text;
+}
