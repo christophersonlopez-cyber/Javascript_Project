@@ -34,3 +34,16 @@ function forloopfunction(){
     document.getElementById("forloop").innerHTML=display;
     
 }
+
+
+//this is a sample for array
+function arrayfunction(){
+    let colors=[];
+    colors[0]="Red";
+    colors[1]="Blue";
+    colors[2]="Green";
+    colors[3]="Yellow";
+    colors[4]="Pink";
+    document.getElementById("arraysample").innerHTML=("This is a color : "+colors[4]);
+    
+}
