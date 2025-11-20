@@ -57,3 +57,17 @@ function constfunction(){
     document.getElementById("constsample").innerHTML=("The brand of the car is : "+car.Brand+" And the color is "+car.color+" Year "+car.Year);
     
 }
+
+
+//this is a sample for return
+function returnfunction (){
+   let name="Christopher Son";
+   let lastname="Lopez";
+
+   return name+" "+lastname;
+    
+    
+}
+function clickme(){
+document.getElementById("returnsample").innerHTML=returnfunction();
+}
