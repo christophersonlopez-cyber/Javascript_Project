@@ -104,3 +104,16 @@ function samplefunction(){
     }
     document.getElementById("breaksample").innerHTML=text;
 }
+
+
+function samplefunction1(){
+    let text="";
+    let x;
+    for(x=0; x<10;x++){
+        if(x==5){
+            continue;
+        }
+        text+="The last number is "+ x+"<br>";
+    }
+    document.getElementById("breaksample1").innerHTML=text;
+}
