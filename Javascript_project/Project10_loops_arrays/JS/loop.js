@@ -71,3 +71,23 @@ function returnfunction (){
 function clickme(){
 document.getElementById("returnsample").innerHTML=returnfunction();
 }
+
+
+
+//this function about object function
+
+function objects(){
+    var car={
+        Brand:"Toyota",
+        Model:"Vios",
+        Color:"Blue",
+        Descriptions: function(){
+        return "The brand of the car is "+this.Brand;
+        }
+    };
+    return car.Descriptions();
+}
+
+function objectfunction(){
+document.getElementById("objectsample").innerHTML=objects();
+}
