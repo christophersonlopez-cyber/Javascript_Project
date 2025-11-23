@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow</title>
+</head>
+<body>
+    <p>Arrow Function</p>
+    <button onclick="clicks()">Click mer</button>
+    <p id="output">This is the output</p>
+    <script>
+        function clicks(){
+     var names;
+     names=(val)=>"Christopher Son Lopaez";
+     document.getElementById("output").innerHTML=names();
+        
+        }
+
+        const num=[5,4,3,2,1];
+        const result=num.some(function(num1){
+            return num1<3;
+        });
+        alert(result);
+    
+     
+    </script>
+    
+</body>
+</html>
