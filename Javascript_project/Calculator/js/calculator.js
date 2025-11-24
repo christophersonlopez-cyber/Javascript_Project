@@ -27,7 +27,7 @@ function Input_Decimal(dot){
 }
 
     function Handle_Operator(Next_Operator){
-        const{First_Opearand,Display_Value,operator}=Calculator;
+        const{First_Operand,Display_Value,operator}=Calculator;
         const Value_of_Input=parseFloat(Display_Value);
 
 
@@ -35,34 +35,34 @@ function Input_Decimal(dot){
             Calculator.operator=Next_Operator;
             return;
         }
-        if(First_Opearand==null){
-            Calculator.First_Opearand=Value_of_Input;
+        if(First_Operand==null){
+            Calculator.First_Operand=Value_of_Input;
 
         }else if(operator){
-            const value_now=First_Opearand||0;
+            const value_now=First_Operand||0;
 
             let result=Perform_Calculation[operator](value_now,Value_of_Input);
             result=Number(result).toFixed(9);
             result=(result*1).toString();
             Calculator.Display_Value=result;
-            Calculator.First_Opearand=result;
+            Calculator.First_Operand=result;
         }
         Calculator.Wait_Second_operand=true;
         Calculator.operator=Next_Operator;
     }
 
     const Perform_Calculation={
-        '/': (First_Opearand,Second_operand)=>First_Opearand / Second_operand,
-        '*': (First_Opearand,Second_operand)=>First_Opearand * Second_operand,
-        '+': (First_Opearand,Second_operand)=>First_Opearand + Second_operand,
-        '-': (First_Opearand,Second_operand)=>First_Opearand -Second_operand,
-        '=': (First_Opearand,Second_operand)=>Second_operand  
+        '/': (First_Operand,Second_operand)=>First_Operand / Second_operand,
+        '*': (First_Operand,Second_operand)=>First_Operand * Second_operand,
+        '+': (First_Operand,Second_operand)=>First_Operand + Second_operand,
+        '-': (First_Operand,Second_operand)=>First_Operand -Second_operand,
+        '=': (First_Operand,Second_operand)=>Second_operand  
     };
     
 
     function Calculator_reset(){
         Calculator.Display_Value='0';
-        Calculator.First_Opearand=null;
+        Calculator.First_Operand=null;
         Calculator.Wait_Second_operand=false;
         Calculator.operator=null;
 
@@ -98,7 +98,7 @@ function Input_Decimal(dot){
             Update_Display();
             return;
             
-        }
+        }ss
         Input_Digit(target.value);
         Update_Display();
     })
