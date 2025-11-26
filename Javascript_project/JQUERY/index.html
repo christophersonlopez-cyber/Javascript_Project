@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <p id="query">This is the sample Output</p>
+    <button onclick="query()" class="clickme">Click Me</button>
+    <button id="hide">Hide button Click me</button>
+
+    <script>
+        $(document).ready(function(){
+            $("html").append(
+                "<body>\
+                    <div id='container'>\
+                        <div id='inner'>\
+                            <h1 id='1'>Paragraph 1</h1>\
+                            <p id='1'>Paragraph 1</p>\
+                            <p id='2'>Paragraph 2</p>\
+                            <p id='3'>Paragraph 3</p>\
+                        </div>\
+                    </div>\
+                    </body>"
+
+
+            );
+            $("#2").css({"color":"red"});
+            $("#3").click(function(){
+                $("h1").hide();
+            });
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // Event setup using a convenience method
+        $( ".clickme" ).click(function() {
+            var sample="This is a sample of query";
+         document.getElementById("query").innerHTML=sample;
+        });
+
+        $("#hide").click(function(){
+            $(".clickme").hide();
+        });
+    </script>
+
+
+
+
+
+    <script src="./js/query.js"></script>
+</body>
+</html>
